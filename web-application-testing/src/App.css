@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background-color: #00723b;
+  margin: 10% 20%;
+}
+
+.scoreCards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2% auto;
+  padding: 3% 0%;
+  width: 80%;
+}
+
+.score {
+  width: 20%; 
+}
+
+h2 {
+  margin: 0;
+  color: white;
+  font-size: 2rem;
+}
+
+.score > div {
+  background-color: black;
+  color: red;
+  font-size: 5rem;
+  /* padding: 20% 0; */
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  border: 2.5px solid white;
+}
+
+button {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 8%;
+  margin: 2%;
+}
